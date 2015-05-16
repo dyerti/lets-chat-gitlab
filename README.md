@@ -17,4 +17,8 @@ auth:
   providers: [gitlab]
 
   gitlab:
+    clientID: '<Generate this from Gitlab>'
+    clientSecret: '<Generate this from Gitlab>'
+    gitlabURL: 'https://gitlab.com'
+    callbackURL: 'https://chat.domain.example'
 ```
