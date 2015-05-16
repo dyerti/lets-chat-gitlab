@@ -1,23 +1,22 @@
 {
-  "name": "lets-chat-ldap",
-  "version": "0.4.0",
-  "description": "LDAP add-on for Let's Chat",
+  "name": "lets-chat-gitlab",
+  "version": "0.1.0",
+  "description": "Gitlab add-on for Let's Chat",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sdelements/lets-chat-ldap.git"
+    "url": "git://github.com/dyerti/lets-chat-gitlab.git"
   },
   "author": {
-    "name": "Simon Bartlett",
-    "email": "simon@sdelements.com"
+    "name": "Tim Dyer",
+    "email": "dyer.ti@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/sdelements/lets-chat-ldap/issues"
+    "url": "https://github.com/dyerti/lets-chat-gitlab/issues"
   },
-  "homepage": "https://github.com/sdelements/lets-chat-ldap",
+  "homepage": "https://github.com/dyerti/lets-chat-gitlab",
   "dependencies": {
-    "ldapjs": "^0.7.1",
-    "passport-ldapauth": "^0.2.3"
+    "passport-gitlab": "^0.5.0"
   },
   "peerDependencies": {
     "lodash": "^3.1.0",
